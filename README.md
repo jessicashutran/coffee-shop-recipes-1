@@ -9,7 +9,7 @@ You can download the following zipped folder to have Steve's coffee shop recipes
 
 ### Bash script for "How to Modify and Fix Your Commits" 
 
-Use the following script to generage the 6 files to follow along with `git amend`, `git reset`, and `git reflog`. 
+Use the following script to generate the 6 files to follow along with `git amend`, `git reset`, and `git reflog`. 
 
 ```bash
 for d in {1..6}; do touch "file${d}.md"; git add "file${d}.md"; git commit -m "adding file ${d}"; done
